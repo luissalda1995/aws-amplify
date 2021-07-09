@@ -1,5 +1,5 @@
 import React from 'react';
-import { css } from 'emotion';
+import { css } from '@emotion/css';
 
 export default function Button({
   title, onClick, type = "action"
@@ -25,3 +25,4 @@ const buttonStyle = type => css`
   :hover {
     background-color: #363636;
   }
+`
